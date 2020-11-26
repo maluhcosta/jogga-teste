@@ -3,195 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
     <title>Jogga</title>
 </head>
 <body>
-    <header>
-        <img src="./img/logo.svg" alt="Logo da Jogga">
-        <div>
-            <img src="./img/facebook.svg" alt="Logo do Facebook">
-            <img src="./img//googlePartnerBadge-Premier2016-1.svg" alt="Premiere Google Partner">
-        </div>
-    </header>
+    <div class="container">
+        <header class="header">
+            <img class="logo-header" src="./img/logo.svg" alt="Logo da Jogga">
+            <div>
+                <img  class="badge-facebook" src="./img/facebook.svg" alt="Logo do Facebook">
+                <img  class="badge-google" src="./img//googlePartnerBadge-Premier2016-1.svg" alt="Premiere Google Partner">
+            </div>
+        </header>
 
-    <main>
-        <section>
-            <img src="./img/modelo.svg" alt="Mulher sorrindo com o celular na mão mostrando a logo da Google">
-            <p>A maneira mais eficiente de gerar negócios e resultados para sua empresa</p>
+        <main class="main">
+            <section class="primeira-sessao">
+                <img  class="modelo" src="./img/modelo.svg" alt="Mulher sorrindo com o celular na mão mostrando a logo da Google">
+                <p class="paragrafo-primeira-sessao">A maneira mais eficiente de gerar negócios e resultados para sua empresa</p>
 
-            <form>
-                <p>Preencha o formulário e descubra como criar mais oportunidades de vendas para sua empresa</p>
+                <form class="formulario">
+                    <p class="paragrafo-formulario">Preencha o formulário e descubra como criar mais oportunidades de vendas para sua empresa</p>
 
-                <div>
-                    <fieldset>
-                        <legend>Nome</legend>
-                        <label for="nome">                    
-                            <input type="text" required>
-                        </label>
-                    </fieldset>
-    
-                    <fieldset>
-                        <legend>E-mail</legend>
-                        <label for="email">
-                            <input type="email" required>
-                        </label>
-                    </fieldset>
-    
-                    <fieldset>
-                        <legend>Telefone</legend>
-                        <label for="telefone">
-                            <input type="number" pattern="[0-9]{11}" required>
-                        </label>
-                    </fieldset>
-                </div>
+                    <div class="div-formulario">
+                        <fieldset>
+                            <legend class="titulo-nome">Nome</legend>
+                            <label for="nome">                    
+                                <input class="input-nome" type="text" required>
+                            </label>
+                        </fieldset>
         
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-
-        <sectione>
-            <h2>Entenda como funciona a captação de novos clientes</h2>
-
-            <div>
-                <div>
-                    <h3>Definição de Público Alvo</h3>
-                    <div>
-                        <h4>1</h4>
-                        <img src="./img/recruitment.svg" alt="">
-                    </div>
-                    <p>Através de uma análise nas ferramentas de anúncios, descobrimos o público-alvo mais indicado para suas campanhas.</p>
-                </div>
-                
-                <div>
-                    <h3>Criação de Anúncios Online</h3>
-                    <div>
-                        <h4>2</h4>
-                        <img src="./img/recruitment.svg" alt="">
-                    </div>
-                    <p>Desenvolvemos anúncios que vão atrair o seu cliente ideal no melhor momento, seja no Google ou em outras páginas na internet.</p>
-                </div>
-                
-                <div>
-                    <h3>Usuário Impactado</h3>
-                    <div>
-                        <h4>3</h4>
-                        <img src="./img/computer.svg" alt="">
-                    </div>
-                    <p>Após ser impactado pelos anúncios, ele vai ligar para sua empresa ou acessar uma página desenvolvida pela Jogga.</p>
-                </div>
-                
-                <div>
-                    <h3>Sua equipe recebe todos contatos</h3>
-                    <div>
-                        <h4>4</h4>
-                        <img src="./img/support.svg" alt="">
-                    </div>
-                    <p>Ligações e e-mails serão recebidos por sua equipe, que estará preparada para fechar novos negócios para sua empresa. </p>
-                </div>
-            </div>
-
-            <img src="./img/02.svg" alt=""Computador>
-
-            <div>
-                <h2>Nossas ferramentas exclusivas</h2>
-                
-                <h3>Páginas de venda</h3>
-                <p>Criamos páginas que são otimizadas para captar o contato do usuário.</p>
-
-                <h3>Plataforma Jogga</h3>
-                <p>Plataforma que exibe de maneira bastante simples e intuitivo os resultados da campanha.</p>
-
-                <h3>Phone Tracking</h3>
-                <p>Uma ferramenta que grava e registrada todas ligações feitas para sua empresa.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Por que sua empresa deve investir em mídia de performance</h2>
-            <p>Conheça os benefícios dessa estratégia</p>
-
-            <div>
-                <div>
-                    <img src="./img/check-mark.svg" alt="check mark">
-                    <h3>Segmentação mais precisa</h3>
-                </div>
-
-                <p>Atraia o público certo na hora certa.</p>
-            </div>
-
-            <div>
-                <div>
-                    <img src="./img/check-mark.svg" alt="check mark">
-                    <h3>Maior alcance</h3>
-                </div>
-
-                <p>Cada vez mais as pessoas utilizam a internet. É lá que seu público está.</p>
-            </div>
-            
-            <div>
-                <div>
-                    <img src="./img/check-mark.svg" alt="check mark">
-                    <h3>Altamente mensurável</h3>
-                </div>
-
-                <p>Registro diário de todas ações, gastos, desempenhos e demais indicadores.</p>
-            </div>
-            
-            <div>
-                <div>
-                    <img src="./img/check-mark.svg" alt="check mark">
-                    <h3>Resultados mais rápidos</h3>
-                </div>
-
-                <p>Os anúncios levam o contato do usuário direto para sua empresa, seja através de e-mail ou telefone.</p>
-            </div>
-            
-            <div>
-                <div>
-                    <img src="./img/check-mark.svg" alt="check mark">
-                    <h3>Controle de orçamento</h3>
-                </div>
-
-                <p>Possibilidade de adaptar os investimentos de acordo com a necessidade da campanha.</p>
-            </div>
-        </section>
-
-        <section>
-            <img src="./img/IMG-6594.svg" alt="Equipe no escritório da Jogga">
-
-            <div>
-                <h2>Conte com a Jogga</h2>
-                <p>A Jogga nasceu a partir da experiência de 12 anos no segmento de mídia de performance. Após ótimos resultados para clientes de diversos ramos, nos tornamos parceiros Premier Partner do Google.
-
-                Apenas 3% de todas empresas parceiras do Google no Brasil têm esse selo. Isso mostra nosso comprometimento e busca por excelência em nossos resultados.</p>
-
-                <h3>Quer o mesmo para sua empresa?</h3>
-                <p>Então clica aqui embaixo e entra em contato com a gente agora mesmo.</p>
-
-                <div>
-                    <img src="./img/telephone-2.svg" alt="Ícone de telefone">
-                    <p>(81) 9999-9999</p>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <p>Hoje são mais de 200 clientes fazendo parte da jogga Digital. De construtora a petshops, passando por hotéis, consultórios médicos e lojas de baterias.</p>
-            <p>Atualmente a Jogga Digital conta com mais de 200 parceiros de diversos segmentos. São pequenas, médias e grandes empresas que diariamente se beneficiam através estratégia da mídia de performance.</p>
-        </section>
+                        <fieldset>
+                            <legend class="titulo-email">E-mail</legend>
+                            <label for="email">
+                                <input class="input-email" type="email" required>
+                            </label>
+                        </fieldset>
         
-        <section>
-            <img src="./img/zmapa2.svg" alt="Mapa do Google">
-        </section>
+                        <fieldset>
+                            <legend class="titulo-telefone">Telefone</legend>
+                            <label for="telefone">
+                                <input class="input-telefone" type="number" pattern="[0-9]{11}" required>
+                            </label>
+                        </fieldset>
 
-        <footer>
-            <div>
-                <h3>Nosso Endereço</h3>
-                <p>Riomar Trade Center, 28º andar
-                Av. República do Líbano, 251 - Pina, Recife</p>
-            </div>
-            <img src="./img//logo.svg" alt="Logo da Jogga">
-        </footer>
-    </main>
+                        <fieldset>
+                            <legend class="titulo-negocio">Negócio</legend>
+                            <label for="negocio">
+                                <textarea class="textarea-negocio" placeholder="Descreva seu negócio." rows="5" cols="22"></textarea>
+                            </label>
+                        </fieldset>
+                    </div>
+            
+                    <button class="botao-enviar" type="submit">Enviar</button>
+                </form>
+            </section>
+
+            <section class="segunda-sessao">
+                <h2 class="titulo-segunda-sessao">Entenda como funciona a captação de novos clientes</h2>
+
+                <div class="div-segunda-sessao">
+                    <div class="divs-segunda-sessao">
+                        <h3 class="titulos-segunda-sessao">Definição de Público Alvo</h3>             
+                        
+                        <div class="div-number">
+                            <h4 class="number">1</h4>
+                            <img class="img-segunda-sessao" src="./img/recruitment.svg" alt="">
+                        </div>
+                        
+                        <p class="paragrafo-segunda-sessao">Através de uma análise nas ferramentas de anúncios, descobrimos o público-alvo mais indicado para suas campanhas.</p>
+                    </div>
+                    
+                    <div class="divs-segunda-sessao">
+                        <h3 class="titulos-segunda-sessao">Criação de Anúncios Online</h3>
+                        
+                        <div class="div-number">
+                            <h4 class="number">2</h4>
+                            <img class="img-segunda-sessao" src="./img/recruitment.svg" alt="">
+                        </div>
+                        
+                        <p class="paragrafo-segunda-sessao">Desenvolvemos anúncios que vão atrair o seu cliente ideal no melhor momento, seja no Google ou em outras páginas na internet.</p>
+                    </div>
+                    
+                    <div class="divs-segunda-sessao">
+                        <h3 class="titulos-segunda-sessao">Usuário Impactado</h3>
+                        
+                        <div class="div-number">
+                            <h4 class="number">3</h4>
+                            <img class="img-segunda-sessao" src="./img/computer.svg" alt="">
+                        </div>
+                        
+                        <p class="paragrafo-segunda-sessao">Após ser impactado pelos anúncios, ele vai ligar para sua empresa ou acessar uma página desenvolvida pela Jogga.</p>
+                    </div>
+                    
+                    <div class="divs-segunda-sessao">
+                        <h3 class="titulos-segunda-sessao">Sua equipe recebe todos contatos</h3>
+                        
+                        <div class="div-number">
+                            <h4 class="number">4</h4>
+                            <img class="img-segunda-sessao" src="./img/support.svg" alt="">
+                        </div>
+                        
+                        <p class="paragrafo-segunda-sessao">Ligações e e-mails serão recebidos por sua equipe, que estará preparada para fechar novos negócios para sua empresa. </p>
+                    </div>
+                </div>
+
+                <img class="img-computador" src="./img/02.svg" alt="Computador">
+
+                <div class="div-ferramentas-exclusivas">
+                    <h2 class="titulo-ferramentas-exclusivas">Nossas ferramentas exclusivas</h2>
+                    
+                    <h3 class="subtitulos-ferramentas-exclusivas">Páginas de venda</h3>
+                    <p class="paragrafos-ferramentas-exclusivas">Criamos páginas que são otimizadas para captar o contato do usuário.</p>
+
+                    <h3 class="subtitulos-ferramentas-exclusivas">Plataforma Jogga</h3>
+                    <p class="paragrafos-ferramentas-exclusivas">Plataforma que exibe de maneira bastante simples e intuitivo os resultados da campanha.</p>
+
+                    <h3 class="subtitulos-ferramentas-exclusivas">Phone Tracking</h3>
+                    <p class="paragrafos-ferramentas-exclusivas">Uma ferramenta que grava e registrada todas ligações feitas para sua empresa.</p>
+                </div>
+            </section>
+
+            <section class="terceira-sessao">
+                <h2 class="titulo-terceira-sessao">Por que sua empresa deve investir em mídia de performance</h2>
+                <p class="paragrafo-terceira-sessao">Conheça os benefícios dessa estratégia</p>
+
+                <div class="div-terceira-sessao">
+                    <div class="separacao-terceira-sessao">
+                        <img class="check" src="./img/check-mark.svg" alt="check mark">
+                        <h3 class="subtitulos-terceira-sessao">Segmentação mais precisa</h3>
+                    </div>
+
+                    <p class="paragrafos-terceira-sessao">Atraia o público certo na hora certa.</p>
+                </div>
+
+                <div class="div-terceira-sessao">
+                    <div class="separacao-terceira-sessao">
+                        <img class="check" src="./img/check-mark.svg" alt="check mark">
+                        <h3 class="subtitulos-terceira-sessao">Maior alcance</h3>
+                    </div>
+
+                    <p class="paragrafos-terceira-sessao">Cada vez mais as pessoas utilizam a internet. É lá que seu público está.</p>
+                </div>
+                
+                <div class="div-terceira-sessao">
+                    <div class="separacao-terceira-sessao">
+                        <img class="check" src="./img/check-mark.svg" alt="check mark">
+                        <h3 class="subtitulos-terceira-sessao">Altamente mensurável</h3>
+                    </div>
+
+                    <p class="paragrafos-terceira-sessao">Registro diário de todas ações, gastos, desempenhos e demais indicadores.</p>
+                </div>
+                
+                <div class="div-terceira-sessao">
+                    <div class="separacao-terceira-sessao">
+                        <img class="check" src="./img/check-mark.svg" alt="check mark">
+                        <h3 class="subtitulos-terceira-sessao">Resultados mais rápidos</h3>
+                    </div>
+
+                    <p class="paragrafos-terceira-sessao">Os anúncios levam o contato do usuário direto para sua empresa, seja através de e-mail ou telefone.</p>
+                </div>
+                
+                <div class="div-terceira-sessao">
+                    <div class="separacao-terceira-sessao">
+                        <img class="check" src="./img/check-mark.svg" alt="check mark">
+                        <h3 class="subtitulos-terceira-sessao">Controle de orçamento</h3>
+                    </div>
+
+                    <p class="paragrafos-terceira-sessao">Possibilidade de adaptar os investimentos de acordo com a necessidade da campanha.</p>
+                </div>
+            </section>
+
+            <section class="quarta-sessao">
+                <img class="equipe" src="./img/IMG-6594.svg" alt="Equipe no escritório da Jogga">
+
+                <div class="div-quarta-sessao">
+                    <h2 class="titulo-quarta-sessao">Conte com a Jogga</h2>
+                    <p class="paragrafo-quarta-sessao">A Jogga nasceu a partir da experiência de 12 anos no segmento de mídia de performance. Após ótimos resultados para clientes de diversos ramos, nos tornamos parceiros Premier Partner do Google.
+
+                    Apenas 3% de todas empresas parceiras do Google no Brasil têm esse selo. Isso mostra nosso comprometimento e busca por excelência em nossos resultados.</p>
+
+                    <h3 class="subtitulo-quarta-sessao">Quer o mesmo para sua empresa?</h3>
+                    <p class="patagrafo-quarta-sessao">Então clica aqui embaixo e entra em contato com a gente agora mesmo.</p>
+
+                    <div>
+                        <img class="icone-telefone" src="./img/telephone-2.svg" alt="Ícone de telefone">
+                        <p class="paragrafo-telefone">(81) 9999-9999</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="quinta-sessao">
+                <p class="paragrafo-maior">Hoje são mais de 200 clientes fazendo parte da jogga Digital. De construtora a petshops, passando por hotéis, consultórios médicos e lojas de baterias.</p>
+                <p class="paragrafo-menor">Atualmente a Jogga Digital conta com mais de 200 parceiros de diversos segmentos. São pequenas, médias e grandes empresas que diariamente se beneficiam através estratégia da mídia de performance.</p>
+            </section>
+            
+            <section class="sexta-sessao">
+                <img class="mapa"src="./img/zmapa2.svg" alt="Mapa do Google">
+            </section>
+
+            <footer class="footer">
+                <div>
+                    <h3 class="titulo-footer">Nosso Endereço</h3>
+                    <p class="endereco">Riomar Trade Center, 28º andar
+                    Av. República do Líbano, 251 - Pina, Recife</p>
+                </div>
+                <img  class="logo-footer" src="./img//logo.svg" alt="Logo da Jogga">
+            </footer>
+        </main>
+    </div>
 </body>
 </html>
