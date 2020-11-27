@@ -1,0 +1,337 @@
+html, body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #FCD64F;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-header {
+    width: 4rem;
+}
+
+.div-badges {
+    display: flex;
+    align-items: center;
+}
+
+.badge-facebook {
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.badge-google {
+    width: 3rem;
+    height: 2.6rem;
+    padding-left: 2px;
+}
+
+.primeira-sessao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    background: #FCD64F;
+}
+
+.modelo {
+    width: 10rem;
+}
+
+.paragrafo-primeira-sessao {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.formulario {
+    width: 80%;
+    background: #ffffff;
+
+    padding: 1rem;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+    box-shadow: .3px .3px 3px #878B87;
+}
+
+.paragrafo-formulario {
+    padding-bottom: 1rem;
+    border-bottom: 1.5px solid #878B87;
+}
+
+.fieldset {
+    border: 1.5px solid #878B87;
+    border-radius: 3px;
+}
+.titulo {
+    text-align: left;
+}
+
+.input {
+    border: none;
+    outline: none;
+}
+
+.botao-enviar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem .3rem 0 0;
+}
+
+.botao {
+    width: 5rem;
+    height: 2rem;
+
+    color: #ffffff;
+    background: #15C95D;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    transition: .3s;
+}
+
+.botao:hover {
+    background: #0aa147;
+}
+
+.segunda-sessao {
+    height: 44rem;
+
+    text-align: center;
+    background: #484848;
+}
+
+.novos-clientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulo-novos-clientes {
+    width: 80%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.divs-novos-clientes {
+    width: 40%;
+}
+
+.titulos-novos-clientes {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #FCD64F;
+}
+
+.number {
+    text-align: left;
+    color: #b4b3b3;
+    padding: 0 2rem;
+    margin: 0;
+}
+
+.img-novos-clientes {
+    width: 3rem;
+    height: 3rem;
+}
+
+.paragrafo-novos-clientes {
+    text-align: start;
+    font-size: .8rem;
+    color: #b4b3b3;
+}
+
+.terceira-sessao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #231F20;
+}
+
+.computador {
+    width: 80%;
+    transform: translateY(-50px);
+}
+
+.div-ferramentas-exclusivas {
+    height: 20rem;
+}
+
+.titulo-ferramentas-exclusivas {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #ffffff;
+    
+    margin-top: 0;
+}
+
+.subtitulos-ferramentas-exclusivas {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #FCD64F;
+    
+    padding: 5px 20px 0 20px;
+}
+
+.paragrafos-ferramentas-exclusivas {
+    font-size: .8rem;
+    font-weight: 300;
+    color: #ffffff;
+    
+    padding: 0 20px;
+}
+
+.quarta-sessao {
+    background: #ffffff;
+
+}
+
+.titulo-investir-em-midia {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.paragrafo-investir-em-midia {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.div-separacao {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.check {
+    width: 1rem;
+    padding-right: .5rem;
+
+}
+.subtitulos-investir-em-midia {
+    font-size: 1rem;
+}
+
+.paragrafos-investir-em-midia {
+    text-align: justify;
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 0 25px;
+}
+
+.quinta-sessao {
+    background: #f0f0f0;
+}
+
+.equipe {
+    width: 100%;
+}
+
+.conte-com-jogga {
+    padding: 0 1rem;
+}
+
+.titulo-conte-com-jogga {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.paragrafo-conte-com-jogga {
+    font-size: .9rem;
+    padding-bottom: .5rem;
+}
+
+.subtitulo-conte-com-jogga {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.icone-telefone {
+    width: 1rem;
+    padding-right: .5rem;
+    margin-top: 0;
+
+}
+
+.paragrafo-telefone {
+    font-size: 1rem;
+    padding: 0;
+}
+
+.div-separacao2 {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.sexta-sessao {
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #FCD64F;
+}
+
+.paragrafo-maior {
+    width: 90%;
+    text-align: center;
+    font-size: .9rem;
+    margin: 0;
+}
+
+.paragrafo-menor {
+    width: 90%;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.mapa {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-footer {
+    font-size: .5rem;
+    font-weight: 400;
+}
+
+.endereco {
+    font-size: .4rem;
+    margin: 0;
+}
+
+.logo-footer {
+    width: 2rem;
+    padding: 1rem 0;
+}
