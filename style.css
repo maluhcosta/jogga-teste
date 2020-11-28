@@ -109,10 +109,54 @@ html, body {
     border-radius: 2px;
     outline: none;
     transition: .3s;
+    cursor: pointer;
 }
 
 .botao:hover {
     background: #0aa147;
+}
+
+.contato {
+    display: flex;
+}
+
+.icone-contato {
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.paragrafo-contato-menor {
+    font-size: .6rem;
+}
+
+.paragrafo-contato-maior {
+    margin-top: 0;
+
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.whatsapp {
+    width: 50%;
+    background:#b4b3b3;
+}
+
+.ligar {
+    width: 50%;
+    background: rgb(104, 104, 241);
+    padding-left: 4rem;
+
+}
+
+.contatos-textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .segunda-sessao {
@@ -143,6 +187,14 @@ html, body {
     font-size: .9rem;
     font-weight: 400;
     color: #FCD64F;
+}
+
+.number-clientes {
+    transition: .3s;
+}
+
+.number-clientes:hover {
+    transform: scale(1.1);
 }
 
 .number {
@@ -213,7 +265,7 @@ html, body {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 500;
-    padding-top: 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .paragrafo-investir-em-midia {
@@ -340,7 +392,58 @@ html, body {
     padding: 1rem 0;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
+    .logo-header {
+        width: 5rem;
+    }
+       
+    .badge-facebook {
+        width: 4rem;
+        height: 2rem;
+    }
+    
+    .badge-google {
+        width: 5.3rem;
+        padding-left: 2px;
+    }
+
+    .paragrafo-primeira-sessao {
+        text-align: center;
+        padding: 0 10rem;
+    }
+
+    .formulario {
+        width: 60%;
+    }
+
+    .segunda-sessao {
+        height: 35rem;
+        padding-top: 2rem;
+    }
+
+    .novos-clientes {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .titulo-novos-clientes {
+        font-size: 1.5rem;
+    }
+
+    .number {
+        transform: translateX(70px);
+    }
+    
+    .titulo-ferramentas-exclusivas {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        overflow: hidden;
+    }
+
     .header {
         height: 7rem;
         display: flex;
@@ -381,13 +484,13 @@ html, body {
     }
     
     .paragrafo-primeira-sessao {
-        font-size: 1.8rem;
+        font-size: 2rem;
         text-align: left;
-        transform: translateY(-50px);
+        padding: 1rem;
     }
     
     .formulario {
-        width: 46rem;   
+        width: 50rem;   
         height: 27rem; 
         padding: 1rem;
         margin: 0 4rem 1rem 0;
@@ -437,10 +540,9 @@ html, body {
     }
 
     .number {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-weight: 500;
-        transform: translateY(15px);
-        transform: translateX(40px);
+        transform: translateX(50px);
         padding: 0;
     }
  
@@ -482,17 +584,6 @@ html, body {
         font-size: .9rem;
         padding: 0;
     }
-
-
-
-
-
-
-
-
-
-
-   
     
     .titulo-investir-em-midia {
         font-size: 1.4rem;
@@ -585,5 +676,4 @@ html, body {
     .logo-footer {
         width: 7rem;
     }
-        
 }
