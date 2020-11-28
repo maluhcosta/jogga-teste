@@ -46,8 +46,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    
+    text-align: center;  
     background: #FCD64F;
 }
 
@@ -56,8 +55,10 @@ html, body {
 }
 
 .paragrafo-primeira-sessao {
-    font-size: 1.2rem;
+    text-align: left;
+    font-size: 1.3rem;
     font-weight: 500;
+    padding: 0 3rem;
 }
 
 .formulario {
@@ -85,13 +86,17 @@ html, body {
 
 .input {
     border: none;
-    outline: none;
+    outline: none;   
+}
+.input-negocios {
+    padding-bottom: 4rem;
 }
 
 .botao-enviar {
     display: flex;
     justify-content: flex-end;
-    padding: 1rem .3rem 0 0;
+    align-items: center;
+    padding: .5rem .2rem 0 0;
 }
 
 .botao {
@@ -294,17 +299,16 @@ html, body {
     justify-content: space-around;
     align-items: center;
     background: #FCD64F;
+    padding: 2rem;
 }
 
 .paragrafo-maior {
-    width: 90%;
     text-align: center;
-    font-size: .9rem;
+    font-size: .8rem;
     margin: 0;
 }
 
 .paragrafo-menor {
-    width: 90%;
     text-align: center;
     font-size: .7rem;
 }
@@ -334,4 +338,252 @@ html, body {
 .logo-footer {
     width: 2rem;
     padding: 1rem 0;
+}
+
+@media (min-width: 720px) {
+    .header {
+        height: 7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo-header {
+        width: 8rem;
+        padding-left: 6rem;
+    }
+    
+    .badge-facebook {
+        width: 5.3rem;
+        height: 3.9rem;
+    }
+    
+    .badge-google {
+        width: 7rem;
+        height: 100%;
+        padding: 0 4rem 0 .7rem;
+    }
+
+    .primeira-sessao {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-image: url(./img/wave.svg);
+        background-position-x: 50rem;
+        background-position-y: 9rem;
+        background-size: 40rem;
+        background-repeat: no-repeat;
+    }
+    
+    .modelo {
+        width: 18rem;
+        padding: 0 0 0 6rem;
+        transform: translateY(23.2px);
+    }
+    
+    .paragrafo-primeira-sessao {
+        font-size: 1.8rem;
+        text-align: left;
+        transform: translateY(-50px);
+    }
+    
+    .formulario {
+        width: 46rem;   
+        height: 27rem; 
+        padding: 1rem;
+        margin: 0 4rem 1rem 0;
+    }
+
+    .titulo {
+        font-size: .9rem;
+    }
+
+    .segunda-sessao {
+        display: flex;
+        height: 20rem;
+        
+        background-image: url(./img/photo-1521453322559-05b31d920f65.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .novos-clientes {
+        width: 68%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 2rem 2rem 0 0;
+    }
+    
+    .titulo-novos-clientes {
+        width: 100%;
+        text-align: left;
+        font-size: 1.5em;
+        font-weight: 500;
+        transform: translateY(-70px);
+        padding-left: 2rem;
+    }
+
+    .divs-novos-clientes {
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .titulos-novos-clientes {
+        width: 9rem;
+        font-size: 1rem;
+        font-weight: 500;
+        margin: .5rem;
+    }
+
+    .number {
+        font-size: 1.6rem;
+        font-weight: 500;
+        transform: translateY(15px);
+        transform: translateX(40px);
+        padding: 0;
+    }
+ 
+    .paragrafo-novos-clientes {
+        width: 9rem;
+        text-align: center;
+        font-size: .8rem;
+        margin: 1rem;
+    }
+    
+    .terceira-sessao {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .computador {
+        width: 23rem;
+        transform: translateY(-100px);
+    }
+    
+    .div-ferramentas-exclusivas {
+        width: 50%;
+        padding: 2rem 0 0 0;
+    }
+    
+    .titulo-ferramentas-exclusivas {
+        text-align: left;
+        font-size: 2rem;
+    }
+    
+    .subtitulos-ferramentas-exclusivas {
+        font-size: 1rem;
+        padding: 0;
+    }
+    
+    .paragrafos-ferramentas-exclusivas {
+        font-size: .9rem;
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+   
+    
+    .titulo-investir-em-midia {
+        font-size: 1.4rem;
+        margin-bottom: .9rem;
+    }
+    
+    .paragrafo-investir-em-midia {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    .div-investir-em-midia {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .investir-em-midia {
+        width: 20%;
+        padding: 0 4rem;
+    }
+    
+    .paragrafos-investir-em-midia {
+        text-align: left;
+    }
+
+    .quinta-sessao {
+        display: flex;
+    }
+    
+    .equipe {
+        width: 50%;
+    }
+    
+    .conte-com-jogga {
+        display: flex;
+        align-items: center;
+        padding: .3rem 1rem 0 2.5rem;
+    }
+    
+    .titulo-conte-com-jogga {
+        text-align: left;
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+    
+    .paragrafo-conte-com-jogga {
+        font-size: .8rem;
+    }
+    
+    .subtitulo-conte-com-jogga {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .paragrafo-telefone {
+        margin: 0;
+    }
+
+    .sexta-sessao {
+        padding: 5rem 15rem;
+    }
+
+    .paragrafo-maior {
+        font-size: 1.2rem;
+    }
+    
+    .paragrafo-menor {
+        font-size: 1rem;
+    }
+    
+    .footer {
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+    }
+    
+    .titulo-footer {
+        text-align: left;
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+    }
+    
+    .endereco {
+        text-align: left;
+        font-size: .9rem;
+    }
+    
+    .logo-footer {
+        width: 7rem;
+    }
+        
 }
