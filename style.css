@@ -80,7 +80,7 @@ html, body {
     border: 1.5px solid #878B87;
     border-radius: 3px;
 }
-.titulo {
+.titulo-formulario {
     text-align: left;
 }
 
@@ -99,7 +99,7 @@ html, body {
     padding: .5rem .2rem 0 0;
 }
 
-.botao {
+.botao-formulario {
     width: 5rem;
     height: 2rem;
 
@@ -112,53 +112,11 @@ html, body {
     cursor: pointer;
 }
 
-.botao:hover {
+.botao-formulario:hover {
     background: #0aa147;
 }
 
-.contato {
-    display: flex;
-}
-
-.icone-contato {
-    width: 2.5rem;
-    height: 2rem;
-}
-
-.paragrafo-contato-menor {
-    font-size: .6rem;
-}
-
-.paragrafo-contato-maior {
-    margin-top: 0;
-
-}
-
-.contatos {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.whatsapp {
-    width: 50%;
-    background:#b4b3b3;
-}
-
-.ligar {
-    width: 50%;
-    background: rgb(104, 104, 241);
-    padding-left: 4rem;
-
-}
-
-.contatos-textos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
+/* Section 2 */
 .segunda-sessao {
     height: 44rem;
 
@@ -496,7 +454,7 @@ html, body {
         margin: 0 4rem 1rem 0;
     }
 
-    .titulo {
+    .titulo-formulario{
         font-size: .9rem;
     }
 
